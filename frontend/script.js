@@ -1,8 +1,3 @@
-// script.js
-
-
-// Toggle Email / SMS Fields
-
 document.getElementById("type").addEventListener("change", function () {
 
     const type = this.value;
@@ -101,7 +96,7 @@ async function sendNotification() {
 
         const response = await fetch(
 
-            "https://gn2scoy3g7.execute-api.ap-south-1.amazonaws.com/notify",
+            "https://xxxxxxxxxxxxx-api.ap-south-1.amazonaws.com/notify",
 
             {
 
