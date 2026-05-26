@@ -1,0 +1,10 @@
+{
+  "Records": [
+    {
+      "body": "{\"type\": \"email\", \"message\": \"Hello from SQS!\", \"email\": \"Your_Email_Id\"}"
+    },
+    {
+      "body": "{\"type\": \"sms\", \"message\": \"Urgent alert!\", \"phone\": \"your_Phone_No\"}"
+    }
+  ]
+}
